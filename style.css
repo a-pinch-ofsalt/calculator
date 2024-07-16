@@ -1,0 +1,59 @@
+body {
+    position: relative;
+}
+
+button {border: 1px solid;
+    border-radius: 10px;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    width: 70%;
+    height: 70%;
+}
+
+#display {
+    background-color: greenyellow;
+    width: 100%;
+    height: 10%;
+}
+
+#numpad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#numpad button {
+    margin: 10px;
+    width: 25%;
+    height: 25%;
+}
+
+#operators {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#operators button {
+    width: 20%;
+    background-color: orange;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+}
+
+#footer button {
+    width: 40%;
+    margin: 10px;
+}
+
+#clearButton {
+    background-color: pink;
+}
